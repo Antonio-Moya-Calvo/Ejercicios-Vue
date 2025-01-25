@@ -1,5 +1,5 @@
 <script setup>
-
+  import TheTitle from'./components/TheTitle.vue'
 
 </script>
 
@@ -9,6 +9,7 @@
   </header>
   <main>
     <h1>Bienvenido a mi Proyecto Vue</h1>
+    <TheTitle></TheTitle>
   </main>
 </template>
 
