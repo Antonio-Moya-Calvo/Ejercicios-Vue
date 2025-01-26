@@ -14,7 +14,8 @@ function decrement() { counter.value-- }
 <TheTitle>Este contador puede cambiar su valor de forma dinámica </TheTitle>
 <div class="contador">
     <p>El contador tiene un valor de: <span>{{ counter }}</span> </p>
-    <p><button @click="increment">Incrementar</button> o <button @click="decrement">Decrementar</button></p>
+    <p><button v-if="(counter < 10)" @click="increment">Incrementar</button> o <button v-if="(counter > 0)" @click="decrement">Decrementar</button></p>
+    <TheTitle v-if="(counter >= 10 || counter <= 0)">HAS LLEGADO AL LÍMITE</TheTitle>
 </div>
 </section>
 </template>
