@@ -1,6 +1,6 @@
 <script setup>
-
   import TheTitle from'./components/TheTitle.vue'
+  import TheCounter from './components/TheCounter.vue';
 </script>
 
 <template>
@@ -10,6 +10,7 @@
   <main>
     <h1>Bienvenido a mi Proyecto Vue</h1>
     <TheTitle>Ya no se me ocurren muchas mas formas de pasarte el título</TheTitle>
+    <TheCounter></TheCounter>
   </main>
 </template>
 
