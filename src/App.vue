@@ -1,6 +1,7 @@
 <script setup>
-  import TheTitle from'./components/TheTitle.vue'
 
+  import TheTitle from'./components/TheTitle.vue'
+const propTitle = 'Por fin una aplicación vuejs con paso de parámetros'
 </script>
 
 <template>
@@ -9,15 +10,16 @@
   </header>
   <main>
     <h1>Bienvenido a mi Proyecto Vue</h1>
-    <TheTitle></TheTitle>
+    <TheTitle :propTitle></TheTitle>
   </main>
 </template>
 
 <style scoped>
+
 header {
   width: 100%;
   line-height: 1.5;
-  background-color: var(--color-background);
+  background-color: var(--color-bg-secondary);
   display: flex;
  flex-direction: row;
  justify-content: center;

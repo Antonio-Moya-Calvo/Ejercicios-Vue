@@ -1,5 +1,9 @@
+<script setup>
+import { defineProps } from 'vue'
+    const props = defineProps(['propTitle'])
+</script>
 <template>
-    <h2>Por fin un proyecto Vuejs</h2>
+    <h2>{{ props.propTitle }}</h2>
 </template>
 <style scoped>
     h2{
