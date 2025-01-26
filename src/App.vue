@@ -1,7 +1,6 @@
 <script setup>
 
   import TheTitle from'./components/TheTitle.vue'
-const propTitle = 'Por fin una aplicación vuejs con paso de parámetros'
 </script>
 
 <template>
@@ -10,7 +9,7 @@ const propTitle = 'Por fin una aplicación vuejs con paso de parámetros'
   </header>
   <main>
     <h1>Bienvenido a mi Proyecto Vue</h1>
-    <TheTitle :propTitle></TheTitle>
+    <TheTitle>Ya no se me ocurren muchas mas formas de pasarte el título</TheTitle>
   </main>
 </template>
 
