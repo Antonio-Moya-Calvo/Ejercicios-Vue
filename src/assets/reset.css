@@ -52,6 +52,7 @@
 :root {
     --color-text-primary: #333;
     --color-background: #f4f4f4;
+    --color-background-slider: #080808;
     --color-border: #ddd;
     --font-family: Arial, sans-serif;
     --font-size-base: 16px;

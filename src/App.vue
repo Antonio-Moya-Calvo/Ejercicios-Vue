@@ -1,34 +1,43 @@
 <script setup>
-  import TheTitle from'./components/TheTitle.vue'
-  import TheCounter from './components/TheCounter.vue';
+import TheTitle from "./components/TheTitle.vue";
+import TheCounter from "./components/TheCounter.vue";
+import ProductCard from "./components/ProductCard.vue";
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="../public/favicon.ico" width="125" height="125" />
+    <img
+      alt="Vue logo"
+      class="logo"
+      src="../public/favicon.ico"
+      width="125"
+      height="125"
+    />
   </header>
   <main>
     <h1>Bienvenido a mi Proyecto Vue</h1>
-    <TheTitle>Ya no se me ocurren muchas mas formas de pasarte el título</TheTitle>
+    <TheTitle
+      >Ya no se me ocurren muchas mas formas de pasarte el título</TheTitle
+    >
     <TheCounter></TheCounter>
+    <ProductCard></ProductCard>
   </main>
 </template>
 
 <style scoped>
-
 header {
   width: 100%;
   line-height: 1.5;
   background-color: var(--color-bg-secondary);
   display: flex;
- flex-direction: row;
- justify-content: center;
+  flex-direction: row;
+  justify-content: center;
 }
-img{
+img {
   margin: auto;
 }
 
-h1{
+h1 {
   text-align: center;
   margin: 1em 0;
 }
@@ -48,6 +57,5 @@ h1{
   .logo {
     margin: 0 2rem 0 0;
   }
-
 }
 </style>
